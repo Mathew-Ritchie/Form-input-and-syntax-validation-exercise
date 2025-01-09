@@ -6,8 +6,7 @@ function validateName() {
   if (pattern.test(input)) {
     document.getElementById("nameResult").innerText = "";
   } else {
-    document.getElementById("nameResult").innerText =
-      "Must include first and last name";
+    document.getElementById("nameResult").innerText = "Invalid Name";
   }
 }
 
